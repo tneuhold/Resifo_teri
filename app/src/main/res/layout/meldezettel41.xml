@@ -22,7 +22,7 @@
         android:layout_alignParentBottom="true">
 
         <TextView
-            android:text="Anmeldung Unterkunft:"
+            android:text="Anmeldung Hauptwohnsitz:"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/AnUn"
@@ -184,38 +184,7 @@
                 android:layout_marginTop="1dp"/>
         </LinearLayout>
 
-        <TextView
-            android:text="Hauptwohnsitz:"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/AdHW"
-            android:layout_marginBottom="5dp"
-            android:layout_marginTop="5dp"
-            android:textSize="16sp"/>
 
-        <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <RadioButton
-                android:text="Ja"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/radioAd1"
-                android:layout_weight="1"
-                android:layout_marginBottom="1dp"
-                android:layout_marginTop="1dp"/>
-
-            <RadioButton
-                android:text="Nein"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/radioAd2"
-                android:layout_weight="1"
-                android:layout_marginBottom="1dp"
-                android:layout_marginTop="1dp"/>
-        </LinearLayout>
 
         <TextView
             android:text="Zuzug aus dem Ausland:"
@@ -269,13 +238,7 @@
             android:layout_marginBottom="1dp"
             android:layout_marginTop="1dp"/>
 
-        <Button
-            android:text="Adresse Auto Fillin"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/Auto"
-            android:layout_marginBottom="1dp"
-            android:layout_marginTop="1dp"/>
+
 
 
     </LinearLayout>
